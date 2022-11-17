@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(210, 205, 205);
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iphone_calculator {
+  background-color: black;
+  border-radius: 35px;
+  padding: 5px;
+  width: 300px;
+  height: 460px;
+  box-shadow: 12px 11px 67px 20px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 12px 11px 67px 20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 12px 11px 67px 20px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+.input_display {
+  width: 320px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input_number {
+  background-color: black;
+  color: white;
+  height: 100px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  text-align: right;
+  overflow-y: hidden;
+  padding-left: 10px;
+}
+
+.calculator_button {
+  color: beige;
+  display: flex;
+  flex-direction: row;
+}
+
+.left_button_top {
+  display: flex;
+  flex-direction: row;
+}
+.cal_button_fixedSize_top,
+.calculator_button_fixed,
+.cal_button_fixed_bottom,
+.cal_button_fixed_right {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  background-color: hsl(0, 2%, 66%);
+  color: black;
+  margin: 5px;
+  font-weight: 300;
+}
+.calculator_button_fixed {
+  background-color: rgb(35, 35, 35);
+  color: white;
+}
+.cal_button_left_number {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 218px;
+}
+.cal_button_fixed_bottom {
+  display: flex;
+  flex-direction: row;
+}
+.calculator_button_bottom {
+  display: flex;
+}
+
+#fixed_bottom_0 {
+  width: 120px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+  background-color: rgb(33, 32, 32);
+  height: 60px;
+  padding-left: 15px;
+  font-weight: 300;
+  margin-right: 5px;
+}
+#fixed_bottom_1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  background-color: rgb(33, 32, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  color: white;
+}
+.cal_button_right {
+  flex-wrap: wrap;
+  display: flex;
+}
+.cal_button_fixed_right {
+  background-color: hsl(32, 100%, 51%);
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+}

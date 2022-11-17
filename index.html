@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Iphone calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="iphone_calculator">
+        <div class="input_display">
+         <input type="text"  name="display"id="input_number" 
+       />
+       
+        </div>
+        <div class="calculator_button">
+          <div class="left_button">
+            <div class="left_button_top">
+              <div class="cal_button_fixedSize_top" id="input_AC">AC</div>
+              <div class="cal_button_fixedSize_top"  onclick="display('* -1' ); solve()">
+                +/-
+              </div>
+              <div class="cal_button_fixedSize_top" onclick="display('/100'); solve()">
+                %
+              </div>
+            </div>
+            <div class="cal_button_left_number">
+              <div class="calculator_button_fixed" onclick="display('7')">
+                7
+              </div>
+              <div class="calculator_button_fixed" onclick="display('8')">
+                8
+              </div>
+              <div class="calculator_button_fixed" onclick="display('9')">
+                9
+              </div>
+              <div class="calculator_button_fixed" onclick="display('4')">
+                4
+              </div>
+              <div class="calculator_button_fixed" onclick="display('5')">
+                5
+              </div>
+              <div class="calculator_button_fixed" onclick="display('6')">
+                6
+              </div>
+              <div class="calculator_button_fixed" onclick="display('1')">
+                1
+              </div>
+              <div class="calculator_button_fixed" onclick="display('2')">
+                2
+              </div>
+              <div class="calculator_button_fixed" onclick="display('3')">
+                3
+              </div>
+            </div>
+            <div class="calculator_button_bottom">
+              <div
+                class="cal_button_fixed_bottom"
+                id="fixed_bottom_0"
+                onclick="display('0')"
+              >
+                0
+              </div>
+              <div
+                class="cal_button_fixed_bottom"
+                id="fixed_bottom_1"
+                onclick="display('.')"
+              >
+                ,
+              </div>
+            </div>
+          </div>
+            <div class="cal_button_right">
+              <div class="cal_button_fixed_right" onclick="display('/')">
+                ÷
+              </div>
+              <div class="cal_button_fixed_right" onclick="display('*')">
+                x
+              </div>
+              <div class="cal_button_fixed_right" onclick="display('-')">
+                -
+              </div>
+              <div class="cal_button_fixed_right" onclick="display('+')">
+                +
+              </div>
+              <div class="cal_button_fixed_right"   onclick="solve()">
+                =
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="danny.js"></script>
+  </body>
+</html>
